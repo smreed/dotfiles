@@ -53,6 +53,12 @@ EXPOSE 80
 # Go
 RUN curl -s https://go.googlecode.com/files/go1.2.1.linux-amd64.tar.gz | tar -v -C /usr/local -xz
 
+# Dropship
+RUN mkdir -p /usr/local/dropship
+RUN curl -o /usr/local/dropship/dropship.jar http://repo1.maven.org/maven2/com/zulily/dropship/dropship/1.1/dropship-1.1.jar
+RUN echo "java -jar /usr/local/dropship/dropship.jar \$*" > /usr/bin/dropship
+RUN chmod +x /usr/bin/dropship
+
 ENV GOPATH /go
 ENV GOROOT /usr/local/go
 ENV PATH $PATH:/usr/local/go/bin:/go/bin
