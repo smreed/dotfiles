@@ -44,6 +44,10 @@ RUN echo debconf shared/accepted-oracle-license-v1-1 seen true | debconf-set-sel
 RUN apt-get install -y oracle-java7-installer
 RUN apt-get install -y oracle-java7-set-default
 
+# Install maven
+
+RUN apt-get install -y maven
+
 # For ipython notebook
 ENV IPN_PORT 80
 EXPOSE 80
