@@ -1,3 +1,0 @@
-function grr
-	echo "(╯°□°)╯︵ ┻━┻"
-end
