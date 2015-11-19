@@ -1,0 +1,17 @@
+[alias]
+  hist = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[core]
+  editor = vim
+  pager = less --no-init --quit-if-one-screen
+[http]
+  sslverify=true
+  cookiefile = /home/smreed/.gitcookies
+[include]
+  path = /home/smreed/host.gitconfig
+[user]
+  email = steven.m.reed@gmail.com
+  name = Steve Reed
