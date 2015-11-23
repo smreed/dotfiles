@@ -10,9 +10,6 @@ Plug 'bling/vim-airline'
 Plug 'powerline/fonts', { 'do': './install.sh' }
 call plug#end()
 
-set shell=bash
-filetype plugin indent on  
-
 if filereadable(expand("~/.vimrc.plugins"))
   source ~/.vimrc.plugins
 endif
