@@ -2,6 +2,9 @@
 let g:NERDTreeDirArrows=0
 map <C-n> :NERDTreeToggle<CR>
 
+" airline
+let g:airline_powerline_fonts = 1
+
 " vim-go settings
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
