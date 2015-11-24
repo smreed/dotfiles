@@ -7,6 +7,7 @@ URxvt.saveLines: 4096           ! buffer size
 ! URxvt.perl-ext-common: default,clipboard,vtwheel
 URxvt.clipboard.autocopy: true  ! sync primary and clipboard buffers
 ! URxvt.metaSendsEscape: true     ! fix alt key
+URxvt.intensityStyles: false
 
 ! Base16 Tomorrow
 ! Scheme: Chris Kempson (http://chriskempson.com)

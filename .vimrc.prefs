@@ -5,8 +5,8 @@ set smartcase
 set number
 "set showmatch
 "set nowrap
-"set autoindent
-"set expandtab
+set autoindent
+set expandtab
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
