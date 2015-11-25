@@ -1,13 +1,14 @@
-URxvt.font: xft:Hack:size=12:antialias=true
-URxvt.scrollBar: false
-! URxvt.transparent: true
-! URxvt.shading: 25
-URxvt.locale: true              ! utf-8
-URxvt.saveLines: 4096           ! buffer size
-! URxvt.perl-ext-common: default,clipboard,vtwheel
-URxvt.clipboard.autocopy: true  ! sync primary and clipboard buffers
-! URxvt.metaSendsEscape: true     ! fix alt key
-URxvt.intensityStyles: false
+URxvt*font:               xft:Hack:size=12:antialias=true
+URxvt*boldFont:           xft:Hack:bold:size=12:antialias=true
+URxvt.letterSpace:        -1
+URxvt*termName:           rxvt
+URxvt*scrollBar:          false
+URxvt*matcher.button:     1
+URxvt.transparent:        false
+URxvt*allow_bold:         true
+URxvt*iso14755:           false
+URxvt*clipboard.autocopy: true
+URxvt*intensifyStyles:    false
 
 ! Base16 Tomorrow
 ! Scheme: Chris Kempson (http://chriskempson.com)
