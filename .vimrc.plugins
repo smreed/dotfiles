@@ -1,6 +1,8 @@
 " nerdtree
-let g:NERDTreeDirArrows=0
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeDirArrows = 1
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
 
 " airline
 let g:airline_powerline_fonts = 1

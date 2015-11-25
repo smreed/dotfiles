@@ -7,8 +7,10 @@ Plug 'tpope/vim-sensible'
 Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 Plug 'benekastah/neomake'
 Plug 'bling/vim-airline'
+Plug 'ntpeters/vim-better-whitespace'
 Plug 'powerline/fonts', { 'do': './install.sh' }
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'elzr/vim-json', { 'for': 'json' }
