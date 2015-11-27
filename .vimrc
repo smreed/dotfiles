@@ -16,6 +16,7 @@ Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'elzr/vim-json', { 'for': 'json' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 call plug#end()
 
 if filereadable(expand("~/.vimrc.plugins"))
