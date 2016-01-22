@@ -7,19 +7,32 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 
 " airline
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " vim-go settings
+let g:go_auto_type_info = 1
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
+let g:go_highlight_interfaces = 1
 let g:go_fmt_command = "goimports"
-let g:go_fmt_fail_silently = 1
+let g:go_fmt_fail_silently = 0
+let g:go_fmt_experimental = 1
 au FileType go nmap <Leader>gd <Plug>(go-doc)
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
+let g:go_metalinter_autosave = 1
+let g:go_metalinter_autosave_enabled = ['vet', 'golint']
 
 " ctrlp settings
 map <C-p> :CtrlP<CR>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(exe|so|dll)$',
+  \ }
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
