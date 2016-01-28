@@ -10,7 +10,8 @@ Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'powerline/fonts', { 'do': './install.sh' }
 Plug 'elzr/vim-json', { 'for': 'json' }
