@@ -15,3 +15,9 @@
 [user]
   email = steven.m.reed@gmail.com
   name = Steve Reed
+[transfer]
+  fsckobjects = true
+[fetch]
+  fsckobjects = true
+[receive]
+  fsckObjects = true
