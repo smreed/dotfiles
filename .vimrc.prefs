@@ -13,3 +13,4 @@ colorscheme Tomorrow-Night
 syntax on
 
 set completeopt-=preview
+set relativenumber
