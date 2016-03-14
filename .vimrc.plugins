@@ -37,3 +37,6 @@ let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
 
 " tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" elzr/vim-json
+let g:vim_json_syntax_conceal = 0
