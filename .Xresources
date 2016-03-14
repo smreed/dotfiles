@@ -1,6 +1,6 @@
 URxvt*font:               xft:Hack:size=12:antialias=true
 URxvt*boldFont:           xft:Hack:bold:size=12:antialias=true
-URxvt.letterSpace:        -1
+URxvt.letterSpace:        -0
 URxvt*termName:           rxvt
 URxvt*scrollBar:          false
 URxvt*matcher.button:     1
@@ -9,7 +9,6 @@ URxvt*allow_bold:         true
 URxvt*iso14755:           false
 URxvt*clipboard.autocopy: true
 URxvt*intensifyStyles:    false
-! URxvt.perl-ext-common:    default,url-select,tabbedex,matcher,keyboard-select,font-size,selection-to-clipboard
 URxvt.perl-ext-common:    default,matcher,font-size,selection-to-clipboard
 
 ! font-size
