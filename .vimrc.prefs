@@ -10,7 +10,7 @@ set nojoinspaces
 set mouse=
 
 " colorscheme Tomorrow-Night
-colorscheme nofrils-dark
+colorscheme nofrils-light
 syntax on
 
 set completeopt-=preview
