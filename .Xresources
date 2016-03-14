@@ -9,6 +9,14 @@ URxvt*allow_bold:         true
 URxvt*iso14755:           false
 URxvt*clipboard.autocopy: true
 URxvt*intensifyStyles:    false
+! URxvt.perl-ext-common:    default,url-select,tabbedex,matcher,keyboard-select,font-size,selection-to-clipboard
+URxvt.perl-ext-common:    default,matcher,font-size,selection-to-clipboard
+
+! font-size
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
 
 ! Base16 Tomorrow
 ! Scheme: Chris Kempson (http://chriskempson.com)
