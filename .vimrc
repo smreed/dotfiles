@@ -3,10 +3,11 @@ if filereadable(expand("~/.vimrc.before"))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'robertmeta/nofrils'
 Plug 'majutsushi/tagbar'
 Plug 'dietsche/vim-lastplace'
 Plug 'tpope/vim-sensible'
-Plug 'chriskempson/vim-tomorrow-theme'
+" Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
