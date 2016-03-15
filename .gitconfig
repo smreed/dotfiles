@@ -9,12 +9,9 @@
   pager = less --no-init --quit-if-one-screen
 [http]
   sslverify=true
-  cookiefile = /home/smreed/.gitcookies
+  cookiefile = ~/.gitcookies
 [include]
-  path = /home/smreed/host.gitconfig
-[user]
-  email = steven.m.reed@gmail.com
-  name = Steve Reed
+  path = ~/host.gitconfig
 [transfer]
   fsckobjects = true
 [fetch]
