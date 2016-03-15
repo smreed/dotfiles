@@ -3,21 +3,33 @@ if filereadable(expand("~/.vimrc.before"))
 endif
 
 call plug#begin('~/.vim/plugged')
-Plug 'robertmeta/nofrils'
-Plug 'majutsushi/tagbar'
-Plug 'dietsche/vim-lastplace'
+" Usability, misc.
 Plug 'tpope/vim-sensible'
-" Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'dietsche/vim-lastplace'
+Plug 'ntpeters/vim-better-whitespace'
+
+" UI
+Plug 'vim-airline/vim-airline'
+Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'ntpeters/vim-better-whitespace'
-Plug 'powerline/fonts', { 'do': './install.sh' }
-Plug 'elzr/vim-json', { 'for': 'json' }
-Plug 'fatih/vim-go', { 'for': 'go' }
+
+" NERD
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
+
+" color schemes, themes, etc
+Plug 'powerline/fonts', { 'do': './install.sh' }
+Plug 'robertmeta/nofrils'
+Plug 'vim-airline/vim-airline-themes'
+" Plug 'chriskempson/vim-tomorrow-theme'
+
+" golang
+Plug 'fatih/vim-go', { 'for': 'go' }
+
+" json
+Plug 'elzr/vim-json', { 'for': 'json' }
+
 call plug#end()
 
 if filereadable(expand("~/.vimrc.plugins"))
