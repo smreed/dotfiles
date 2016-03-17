@@ -24,7 +24,7 @@ let g:go_fmt_experimental = 1
 au FileType go nmap <Leader>gd <Plug>(go-doc)
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
 let g:go_metalinter_autosave = 1
-let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
+let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck', 'deadcode', 'dupl']
 
 " ctrlp settings
 " map <C-p> :CtrlP<CR>
