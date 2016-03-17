@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tpope/vim-sensible'
 Plug 'dietsche/vim-lastplace'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'ctrlpvim/ctrlp.vim'
 
 " UI
 Plug 'vim-airline/vim-airline'
