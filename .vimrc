@@ -21,9 +21,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin', { 'on': 'NERDTreeToggle' }
 
 " color schemes, themes, etc
 Plug 'powerline/fonts', { 'do': './install.sh' }
-Plug 'robertmeta/nofrils'
 Plug 'vim-airline/vim-airline-themes'
-" Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'chriskempson/vim-tomorrow-theme'
 
 " golang
 Plug 'fatih/vim-go', { 'for': 'go' }

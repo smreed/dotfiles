@@ -9,8 +9,7 @@ set softtabstop=2
 set nojoinspaces
 set mouse=
 
-" colorscheme Tomorrow-Night
-colorscheme nofrils-light
+colorscheme Tomorrow-Night
 syntax on
 
 set completeopt-=preview
