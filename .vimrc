@@ -25,7 +25,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/vim-tomorrow-theme'
 
 " golang
-Plug 'fatih/vim-go', { 'for': 'go' }
+Plug 'fatih/vim-go'
 
 " json
 Plug 'elzr/vim-json', { 'for': 'json' }
