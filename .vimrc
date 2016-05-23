@@ -30,6 +30,9 @@ Plug 'fatih/vim-go'
 " json
 Plug 'elzr/vim-json', { 'for': 'json' }
 
+" yaml
+Plug 'stephpy/vim-yaml', { 'for': 'yaml' }
+
 call plug#end()
 
 if filereadable(expand("~/.vimrc.plugins"))
