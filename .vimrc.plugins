@@ -28,7 +28,10 @@ au FileType go nmap <leader>gc <Plug>(go-coverage)
 au FileType go nmap <Leader>gd <Plug>(go-doc)
 au FileType go nmap <Leader>gv <Plug>(go-doc-vertical)
 let g:go_metalinter_autosave = 1
-let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck', 'deadcode', 'dupl']
+let g:go_metalinter_autosave_enabled = ['vet', 'golint']
+let g:go_metalinter_enabled = ['vet', 'golint', 'deadcode', 'structcheck', 'ineffassign', 'gosimple', 'goimports', 'goconst']
+let g:go_metalinter_deadline = "4s"
+let g:go_term_enabled = 1
 
 " ctrlp settings
 map <C-p> :CtrlP<CR>
