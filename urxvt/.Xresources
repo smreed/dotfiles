@@ -1,7 +1,7 @@
 URxvt*font:               xft:Fantasque Sans Mono:size=14:antialias=true
 URxvt*boldFont:           xft:Fantasque Sans Mono:bold:size=14:antialias=true
 URxvt.letterSpace:        -1
-URxvt*termName:           rxvt
+URxvt*termName:           rxvt-256color
 URxvt*scrollBar:          false
 URxvt*matcher.button:     1
 URxvt.transparent:        false
