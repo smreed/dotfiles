@@ -15,6 +15,7 @@ set fish_color_operator 8abeb7
 set fish_color_escape 8abeb7
 set fish_color_cwd b5bd68
 
+set -x PATH $PATH /usr/local/go/bin
 set -x PATH $PATH $HOME/google-cloud-sdk/bin
 set -x GOPATH $HOME/go
 set -x PATH $PATH $GOPATH/bin
