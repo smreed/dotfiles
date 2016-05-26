@@ -1,3 +1,5 @@
+fundle plugin 'tuvistavie/fish-ssh-agent'
+
 set -g -x fish_greeting ''
 
 # Tomorrow-Night theme, from https://gist.githubusercontent.com/alexwllms/7959105/raw/b62a48dd4aa712bac520ba9ce80867590813db6f/Tomorrow%2520Night%2520Theme%2520for%2520Fish%2520(shell)
