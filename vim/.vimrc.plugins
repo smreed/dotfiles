@@ -32,6 +32,7 @@ let g:go_metalinter_autosave_enabled = ['vet', 'golint']
 let g:go_metalinter_enabled = ['vet', 'golint', 'deadcode', 'structcheck', 'ineffassign', 'gosimple', 'goimports', 'goconst']
 let g:go_metalinter_deadline = "4s"
 let g:go_term_enabled = 1
+let g:go_def_mode = 'godef'
 
 " ctrlp settings
 map <C-p> :CtrlP<CR>
