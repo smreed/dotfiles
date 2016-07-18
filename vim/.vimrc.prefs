@@ -8,6 +8,7 @@ set shiftwidth=2
 set softtabstop=2
 set nojoinspaces
 set mouse=
+set cursorline
 
 colorscheme Tomorrow-Night
 syntax on
